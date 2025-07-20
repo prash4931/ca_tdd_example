@@ -172,7 +172,7 @@ void main() {
 
   group('getRandomNumberTrivia', () {
     const tNumberTriviaModel = NumberTriviaModel(
-      text: 'Test Trivia',
+      text: 'test trivia',
       number: 1,
     );
     const NumberTrivia tNumberTrivia = tNumberTriviaModel;
@@ -183,7 +183,9 @@ void main() {
       when(
         () => mockRemoteDataSource.getRandomNumberTrivia(),
       ).thenAnswer((_) async => tNumberTriviaModel);
-      when(() => mockLocalDataSource.cacheNumberTrivia(tNumberTriviaModel));
+      when(
+        () => mockLocalDataSource.cacheNumberTrivia(tNumberTriviaModel),
+      ).thenAnswer((_) async {});
 
       // act
       await repository.getRandomNumberTrivia();
