@@ -54,6 +54,11 @@ dependencies:
   # Local Cache
   shared_preferences: ^2.5.3
 
+  # Code Analysis
+  very_good_analysis: ^9.0.0
+  data_connection_checker_tv: ^0.3.5-nullsafety
+  
+
 
 
 dev_dependencies:
@@ -66,7 +71,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
-  mockito: ^5.4.6
+  # mockito: ^5.4.6
+  mocktail: ^1.0.4
   build_runner: ^2.5.4
 
 # For information on the generic Dart part of this file, see the

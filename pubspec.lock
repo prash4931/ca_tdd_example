@@ -209,6 +209,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.10.1"
+  data_connection_checker_tv:
+    dependency: "direct main"
+    description:
+      name: data_connection_checker_tv
+      sha256: "92b89e4fa223d905db5a1a19be55954a9556210adf02d81f2c0817350de69023"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.5-nullsafety"
   dbus:
     dependency: transitive
     description:
@@ -440,14 +448,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
-  mockito:
+  mocktail:
     dependency: "direct dev"
     description:
-      name: mockito
-      sha256: "4546eac99e8967ea91bae633d2ca7698181d008e95fa4627330cf903d573277a"
+      name: mocktail
+      sha256: "890df3f9688106f25755f26b1c60589a92b3ab91a22b8b224947ad041bf172d8"
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.6"
+    version: "1.0.4"
   nested:
     dependency: transitive
     description:
@@ -637,14 +645,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  source_gen:
-    dependency: transitive
-    description:
-      name: source_gen
-      sha256: "35c8150ece9e8c8d263337a265153c3329667640850b9304861faea59fc98f6b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
   source_span:
     dependency: transitive
     description:
@@ -725,6 +725,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  very_good_analysis:
+    dependency: "direct main"
+    description:
+      name: very_good_analysis
+      sha256: e479fbc0941009262343db308133e121bf8660c2c81d48dd8e952df7b7e1e382
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.0.0"
   vm_service:
     dependency: transitive
     description:
